@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>NaN</title>
+        <script type="text/javascript">
+            function showValue(){
+                var dayOfTheMonth = 20;
+                if (dayOfTheMonth < 1 || dayOfTheMonth > 31)
+                {
+                    dayOfTheMonth = Number.NaN
+                    alert("Day of the Month must be between 1 and 31.")
+                }
+                document.write("Value of day of the Month : " + dayOfTheMonth);
+            }
+        </script>
+    </head>
+    <body>
+        <form action="">
+            <input type="button" value="Click Here" onclick="showValue();">
+        </form>
+    </body>
+</html>
